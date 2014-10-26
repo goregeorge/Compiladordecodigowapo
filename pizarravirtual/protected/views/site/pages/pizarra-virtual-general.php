@@ -12,10 +12,18 @@ $this->breadcrumbs=array(
 		    width="100%"
 		    height="500px"
 		    frameborder="0"
-		    style="border: 0;"
-		    src="http://codeshare.io/IwxIt">
+		    style="border: 0; position: relative"
+		    src="http://rextester.com/live/PLYP6849">
 		</iframe>
+
 	</div>
+	<div id="tapacoso" style="
+		background-color: #eeeeee;
+		height: 50px;
+		z-index: 0;
+		position: relative;
+		width: 53%;
+		"></div>
 	<div class="span4">
 		<?php
 			$this->widget('MjmChat', array(
@@ -28,3 +36,10 @@ $this->breadcrumbs=array(
 		?>
 	</div>
 </div>
+
+<script type="text/javascript">
+	function lol() {
+		var text = editor.mirror.getValue();
+    	alert(text);
+	}
+</script>
